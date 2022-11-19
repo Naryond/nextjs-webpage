@@ -40,9 +40,15 @@ const Home: NextPage = () => {
       <section>
         <h3 className="project_section">Here some of my projects</h3>
         <div className="boxes">
-          <Image src={ideaboard} alt="" width={240} height={160} />
-          <Image src={firebasedb} alt="" width={240} height={160} />
-          <Image src={quotesgen} alt="" width={240} height={160} />
+          <Link href="https://nextjs-ideaboard.vercel.app/">
+            <Image src={ideaboard} alt="" width={240} height={160} />
+          </Link>
+          <Link href="https://nextjs-database-complete.vercel.app/">
+            <Image src={firebasedb} alt="" width={240} height={160} />
+          </Link>
+          <Link href="https://nextjs-randomquotesgen.vercel.app/">
+            <Image src={quotesgen} alt="" width={240} height={160} />
+          </Link>
         </div>
       </section>
       <footer className="footer">

@@ -35,9 +35,9 @@ const Home: NextPage = () => {
       <section>
         <h3 className="project_section">Here some of my projects</h3>
         <div className="boxes">
-          <div className="box">qwe</div>
-          <div className="box">asd</div>
-          <div className="box">zxc</div>
+          <div className="box">https://i.ibb.co/jg84R3K/Ideaboard.png</div>
+          <div className="box">https://i.ibb.co/h8zJV3c/Firebasedb.png</div>
+          <div className="box">https://i.ibb.co/NK7nkdQ/Quotesgen.png</div>
         </div>
       </section>
       <footer className="footer">

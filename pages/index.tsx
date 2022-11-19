@@ -1,5 +1,10 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import ideaboard from '../images/ideaboard.png';
+import firebasedb from '../images/firebasedb.png';
+import quotesgen from '../images/quotesgen.png';
 
 const Home: NextPage = () => {
   return (
@@ -35,9 +40,9 @@ const Home: NextPage = () => {
       <section>
         <h3 className="project_section">Here some of my projects</h3>
         <div className="boxes">
-          <div className="box">https://i.ibb.co/jg84R3K/Ideaboard.png</div>
-          <div className="box">https://i.ibb.co/h8zJV3c/Firebasedb.png</div>
-          <div className="box">https://i.ibb.co/NK7nkdQ/Quotesgen.png</div>
+          <Image src={ideaboard} alt="" width={240} height={160} />
+          <Image src={firebasedb} alt="" width={240} height={160} />
+          <Image src={quotesgen} alt="" width={240} height={160} />
         </div>
       </section>
       <footer className="footer">

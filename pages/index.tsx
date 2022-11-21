@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <nav>
         <ul className="nav-list">
-          {/* <div> Giuseppe Valeriani</div> */}
+          <div> Giuseppe Valeriani</div>
           <li>
             <a href="#">Home</a>
           </li>
@@ -30,14 +30,13 @@ const Home: NextPage = () => {
         </ul>
       </nav>
       <header className="header">
-        <span className="main_text">You THINK it,</span>
-        <span className="main_text">I DEVELOP it.</span>
-        <span className="main_subtext">
+        <span className="main-text">You THINK it,</span>
+        <span className="main-text">I DEVELOP it.</span>
+        <span className="main-subtext">
           It&apos;s EASY! I&apos;m a Front End Developer.
         </span>
       </header>
-      <article className="section">
-        <br />
+      <article className="center-section">
         <p className="paragraph">
           I am <strong>Giuseppe Valeriani</strong>, i am based in London (UK)
           and I am learning how to code. I am currently focused on Front End, I

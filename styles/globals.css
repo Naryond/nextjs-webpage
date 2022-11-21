@@ -1,34 +1,43 @@
 .nav-list {
   display: flex;
-  justify-content: center;
   gap: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav-list li {
+.nav-list > * {
 }
 
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 10rem;
 }
 
-.main_text {
+.main-text {
   font-size: 80px;
   margin-bottom: 20px;
 }
 
-.main_subtext {
+.main-subtext {
   font-size: 22px;
+  margin-bottom: 5rem;
+}
+
+.center-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
 .paragraph {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   font-style: italic;
+  width: 600px;
 }
 
 .columns {
@@ -36,6 +45,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .columns > * {

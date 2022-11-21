@@ -32,14 +32,11 @@ const Home: NextPage = () => {
       </nav>
       <header className="header">
         <p>I am a Front End Developer based in London (U.K.)</p>
-        <p>
+        <article>
           I can use <strong>JavaScript, React, HTML, CSS, TypeScript</strong>,
-          but I am always willing to expand my knowledge.
-        </p>
+          but I can't wait to expand my knowledge.
+        </article>
       </header>
-      <article className="center-section">
-        <p className="paragraph"></p>
-      </article>
       <h3 className="center-section">Here some of my projects</h3>
       <section className="columns">
         <Link href="https://github.com/Naryond/nextjs-ideaboard">

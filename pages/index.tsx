@@ -5,6 +5,7 @@ import Link from 'next/link';
 import ideaboard from '../images/ideaboard.png';
 import firebasedb from '../images/firebasedb.png';
 import quotesgen from '../images/quotesgen.png';
+import Card from 'react-bootstrap/Card';
 
 const Home: NextPage = () => {
   return (
@@ -30,29 +31,27 @@ const Home: NextPage = () => {
         </ul>
       </nav>
       <header className="header">
-        <span className="main-text">You THINK it,</span>
-        <span className="main-text">I DEVELOP it.</span>
-        <span className="main-subtext">
-          It&apos;s EASY! I&apos;m a Front End Developer.
-        </span>
+        <p>I am a Front End Developer based in London (U.K.)</p>
+        <p>
+          I can use <strong>JavaScript, React, HTML, CSS, TypeScript</strong>,
+          but I am always willing to expand my knowledge.
+        </p>
       </header>
       <article className="center-section">
-        <p className="paragraph">
-          I am <strong>Giuseppe Valeriani</strong>, i am based in London (UK)
-          and I am learning how to code. I am currently focused on Front End, I
-          can use JavaScript, React, HTML, CSS, TypeScript, but I am always
-          willing to expand my knowledge.
-        </p>
+        <p className="paragraph"></p>
       </article>
       <h3 className="center-section">Here some of my projects</h3>
       <section className="columns">
-        <Link href="https://nextjs-ideaboard.vercel.app/">
+        <Link href="https://github.com/Naryond/nextjs-ideaboard">
+          <p>Idea Board (Clearscore Tech Test)</p>
           <Image src={ideaboard} alt="" width={240} height={160} />
         </Link>
-        <Link href="https://nextjs-database-complete.vercel.app/">
+        <Link href="https://github.com/Naryond/nextjs-APIRestwithFirebaseAuth">
+          <p>API Rest Call with Firebase Authentication</p>
           <Image src={firebasedb} alt="" width={240} height={160} />
         </Link>
-        <Link href="https://nextjs-randomquotesgen.vercel.app/">
+        <Link href="https://github.com/Naryond/nextjs-randomquotesgen">
+          <p>Random Quotes Generator</p>
           <Image src={quotesgen} alt="" width={240} height={160} />
         </Link>
       </section>

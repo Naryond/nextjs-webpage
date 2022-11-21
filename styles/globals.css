@@ -6,9 +6,6 @@
   list-style: none;
 }
 
-.nav-list > * {
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -35,9 +32,9 @@
 
 .paragraph {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  font-size: medium;
   font-style: italic;
-  width: 600px;
+  width: 30rem;
 }
 
 .columns {
@@ -52,21 +49,11 @@
   flex: 1;
 }
 
-.boxes {
+.footer {
   display: flex;
   justify-content: space-evenly;
 }
 
-.box {
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-}
-
-.links {
+.footer > * {
   text-decoration: none;
 }

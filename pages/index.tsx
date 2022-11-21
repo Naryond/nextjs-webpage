@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           willing to expand my knowledge.
         </p>
       </article>
-      <h3>Here some of my projects</h3>
+      <h3 className="center-section">Here some of my projects</h3>
       <section className="columns">
         <Link href="https://nextjs-ideaboard.vercel.app/">
           <Image src={ideaboard} alt="" width={240} height={160} />
@@ -57,16 +57,9 @@ const Home: NextPage = () => {
         </Link>
       </section>
       <footer className="footer">
-        <a href="giuggey85@gmail.com" target="_blank" className="links">
-          E-mail
-        </a>
-        <a href="https://github.com/Naryond" className="links">
-          Git Hub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/giuseppe-valeriani-4b9995115/"
-          className="links"
-        >
+        <a href="mailto:giuggey85@gmail.com">E-mail</a>
+        <a href="https://github.com/Naryond">Git Hub</a>
+        <a href="https://www.linkedin.com/in/giuseppe-valeriani-4b9995115/">
           LinkedIn
         </a>
       </footer>

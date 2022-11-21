@@ -12,13 +12,21 @@ const Home: NextPage = () => {
       <Head>
         <title>Giuseppe Valeriani</title>
       </Head>
-      <nav className="navbar">
-        <div className="nav_text"> Giuseppe Valeriani</div>
-        <ul className="nav_buttons">
-          <li>Home</li>
-          <li>Section</li>
-          <li>button 1</li>
-          <li>button 2</li>
+      <nav>
+        <ul className="nav-list">
+          {/* <div> Giuseppe Valeriani</div> */}
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+          </li>
         </ul>
       </nav>
       <header className="header">
@@ -37,19 +45,17 @@ const Home: NextPage = () => {
           willing to expand my knowledge.
         </p>
       </article>
-      <section>
-        <h3 className="project_section">Here some of my projects</h3>
-        <div className="boxes">
-          <Link href="https://nextjs-ideaboard.vercel.app/">
-            <Image src={ideaboard} alt="" width={240} height={160} />
-          </Link>
-          <Link href="https://nextjs-database-complete.vercel.app/">
-            <Image src={firebasedb} alt="" width={240} height={160} />
-          </Link>
-          <Link href="https://nextjs-randomquotesgen.vercel.app/">
-            <Image src={quotesgen} alt="" width={240} height={160} />
-          </Link>
-        </div>
+      <h3>Here some of my projects</h3>
+      <section className="columns">
+        <Link href="https://nextjs-ideaboard.vercel.app/">
+          <Image src={ideaboard} alt="" width={240} height={160} />
+        </Link>
+        <Link href="https://nextjs-database-complete.vercel.app/">
+          <Image src={firebasedb} alt="" width={240} height={160} />
+        </Link>
+        <Link href="https://nextjs-randomquotesgen.vercel.app/">
+          <Image src={quotesgen} alt="" width={240} height={160} />
+        </Link>
       </section>
       <footer className="footer">
         <a href="giuggey85@gmail.com" target="_blank" className="links">

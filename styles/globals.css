@@ -1,23 +1,13 @@
-.navbar {
+.nav-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  width: auto;
-  background-color: white;
-  top: 0;
-  padding: 0 1rem;
-}
-
-.nav_text {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-.nav_buttons {
-  flex-direction: row;
-  display: inline-flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.nav-list li {
 }
 
 .header {
@@ -41,9 +31,15 @@
   font-style: italic;
 }
 
-.project_section {
+.columns {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  gap: 2rem;
+}
+
+.columns > * {
+  flex: 1;
 }
 
 .boxes {

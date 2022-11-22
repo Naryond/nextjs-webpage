@@ -1,10 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
-import ideaboard from '../images/ideaboard.png';
-import firebasedb from '../images/firebasedb.png';
-import quotesgen from '../images/quotesgen.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Home: NextPage = () => {
@@ -26,7 +22,7 @@ const Home: NextPage = () => {
           <Row>
             <Col>
               <Card>
-                <Card.Title>Idea Board (Clearscore Tech Test)</Card.Title>
+                <Card.Header>Idea Board (Clearscore Tech Test)</Card.Header>
                 <Card.Body>
                   <Link href="https://github.com/Naryond/nextjs-ideaboard">
                     <Card.Img src={'https://i.ibb.co/jg84R3K/Ideaboard.png'} />
@@ -36,7 +32,7 @@ const Home: NextPage = () => {
             </Col>
             <Col>
               <Card>
-                <Card.Title>API Rest with Firebase Authentication</Card.Title>
+                <Card.Header>API Rest with Firebase Authentication</Card.Header>
                 <Card.Body>
                   <Link href="https://github.com/Naryond/nextjs-APIRestwithFirebaseAuth">
                     <Card.Img src={'https://i.ibb.co/h8zJV3c/Firebasedb.png'} />
@@ -46,7 +42,7 @@ const Home: NextPage = () => {
             </Col>
             <Col>
               <Card>
-                <Card.Title>Random Quotes Generator</Card.Title>
+                <Card.Header>Random Quotes Generator</Card.Header>
                 <Card.Body>
                   <Link href="https://github.com/Naryond/nextjs-randomquotesgen">
                     <Card.Img src={'https://i.ibb.co/NK7nkdQ/Quotesgen.png'} />

@@ -13,23 +13,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Giuseppe Valeriani</title>
       </Head>
-      <nav>
-        <ul className="nav-list">
-          <div> Giuseppe Valeriani</div>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contacts</a>
-          </li>
-        </ul>
-      </nav>
       <header className="header">
         <p>I am a Front End Developer based in London (U.K.)</p>
         <article>

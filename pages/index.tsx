@@ -1,7 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Link from 'next/link';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import Projects from '../components/projects';
 
 const Home: NextPage = () => {
   return (
@@ -22,40 +21,7 @@ const Home: NextPage = () => {
       </header>
       <h3 className="center-section">Here some of my projects</h3>
       <section>
-        <Container>
-          <Row>
-            <Col>
-              <Card>
-                <Card.Header>Idea Board (Clearscore Tech Test)</Card.Header>
-                <Card.Body>
-                  <Link href="https://github.com/Naryond/nextjs-ideaboard">
-                    <Card.Img src={'https://i.ibb.co/jg84R3K/Ideaboard.png'} />
-                  </Link>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Header>API Rest with Firebase Authentication</Card.Header>
-                <Card.Body>
-                  <Link href="https://github.com/Naryond/nextjs-APIRestwithFirebaseAuth">
-                    <Card.Img src={'https://i.ibb.co/h8zJV3c/Firebasedb.png'} />
-                  </Link>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Header>Random Quotes Generator</Card.Header>
-                <Card.Body>
-                  <Link href="https://github.com/Naryond/nextjs-randomquotesgen">
-                    <Card.Img src={'https://i.ibb.co/NK7nkdQ/Quotesgen.png'} />
-                  </Link>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
+        <Projects />
       </section>
       <footer className="footer">
         <a href="mailto:giuggey85@gmail.com">E-mail</a>

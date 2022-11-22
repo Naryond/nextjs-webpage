@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ideaboard from '../images/ideaboard.png';
 import firebasedb from '../images/firebasedb.png';
 import quotesgen from '../images/quotesgen.png';
-import Card from 'react-bootstrap/Card';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Home: NextPage = () => {
   return (
@@ -21,19 +21,41 @@ const Home: NextPage = () => {
         </article>
       </header>
       <h3 className="center-section">Here some of my projects</h3>
-      <section className="columns">
-        <Link href="https://github.com/Naryond/nextjs-ideaboard">
-          <p>Idea Board (Clearscore Tech Test)</p>
-          <Image src={ideaboard} alt="" width={240} height={160} />
-        </Link>
-        <Link href="https://github.com/Naryond/nextjs-APIRestwithFirebaseAuth">
-          <p>API Rest Call with Firebase Authentication</p>
-          <Image src={firebasedb} alt="" width={240} height={160} />
-        </Link>
-        <Link href="https://github.com/Naryond/nextjs-randomquotesgen">
-          <p>Random Quotes Generator</p>
-          <Image src={quotesgen} alt="" width={240} height={160} />
-        </Link>
+      <section>
+        <Container>
+          <Row>
+            <Col>
+              <Card>
+                <Card.Title>Idea Board (Clearscore Tech Test)</Card.Title>
+                <Card.Body>
+                  <Link href="https://github.com/Naryond/nextjs-ideaboard">
+                    <Card.Img src={'https://i.ibb.co/jg84R3K/Ideaboard.png'} />
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Title>API Rest with Firebase Authentication</Card.Title>
+                <Card.Body>
+                  <Link href="https://github.com/Naryond/nextjs-APIRestwithFirebaseAuth">
+                    <Card.Img src={'https://i.ibb.co/h8zJV3c/Firebasedb.png'} />
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Title>Random Quotes Generator</Card.Title>
+                <Card.Body>
+                  <Link href="https://github.com/Naryond/nextjs-randomquotesgen">
+                    <Card.Img src={'https://i.ibb.co/NK7nkdQ/Quotesgen.png'} />
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
       </section>
       <footer className="footer">
         <a href="mailto:giuggey85@gmail.com">E-mail</a>

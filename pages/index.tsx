@@ -10,10 +10,14 @@ const Home: NextPage = () => {
         <title>Giuseppe Valeriani</title>
       </Head>
       <header className="header">
-        <p>I am a Front End Developer based in London (U.K.)</p>
-        <article>
-          I can use <strong>JavaScript, React, HTML, CSS, TypeScript</strong>,
-          but I can't wait to expand my knowledge.
+        <article className="lead">
+          <p className="text-center">
+            I am a Front End Developer based in London (U.K.)
+          </p>
+          <p className="text-center">
+            I can use <strong>JavaScript, React, HTML, CSS, TypeScript</strong>,
+            but I can't wait to expand my knowledge.
+          </p>
         </article>
       </header>
       <h3 className="center-section">Here some of my projects</h3>

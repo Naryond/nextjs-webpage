@@ -4,7 +4,7 @@ import Projects from '../components/projects';
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Giuseppe Valeriani</title>
       </Head>
@@ -23,14 +23,7 @@ const Home: NextPage = () => {
       <section>
         <Projects />
       </section>
-      <footer className="footer">
-        <a href="mailto:giuggey85@gmail.com">E-mail</a>
-        <a href="https://github.com/Naryond">Git Hub</a>
-        <a href="https://www.linkedin.com/in/giuseppe-valeriani-4b9995115/">
-          LinkedIn
-        </a>
-      </footer>
-    </div>
+    </>
   );
 };
 

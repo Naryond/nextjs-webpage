@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
+// Pictures are 600 x 375 px
+
 const Projects = () => {
   return (
     <Container>

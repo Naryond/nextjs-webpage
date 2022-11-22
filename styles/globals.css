@@ -51,10 +51,11 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   position: fixed;
   bottom: 0;
   width: 100%;
+  gap: 2rem;
 }
 
 .footer > * {

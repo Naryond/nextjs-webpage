@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 const NavBar = () => {
   return (
@@ -12,7 +10,17 @@ const NavBar = () => {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#contacts">Contacts</Nav.Link>
+          <NavDropdown title="Contacts">
+            <NavDropdown.Item href="mailto:giuggey85@gmail.com">
+              Email
+            </NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/Naryond">
+              Git Hub
+            </NavDropdown.Item>
+            <NavDropdown.Item href="https://www.linkedin.com/in/giuseppe-valeriani-4b9995115/">
+              Linked In
+            </NavDropdown.Item>
+          </NavDropdown>
         </Nav>
       </Container>
     </Navbar>

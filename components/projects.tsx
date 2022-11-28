@@ -12,7 +12,7 @@ const projectsList = [
     description:
       'This is the ClearScore Tech Test focused to build an Idea Board with tiles the user can easily create, erase, modify.',
     githubLink: 'https://github.com/Naryond/nextjs-ideaboard',
-    liveAppLink: '',
+    liveAppLink: 'https://nextjs-ideaboard.vercel.app/',
   },
   {
     header: 'API Rest with Firebase Authentication',
@@ -22,7 +22,7 @@ const projectsList = [
     description:
       'Website authenticated with Firebase that holds a GitHub Users Search Bar',
     githubLink: 'https://github.com/Naryond/nextjs-APIRestwithFirebaseAuth',
-    liveAppLink: '',
+    liveAppLink: 'https://nextjs-database-complete.vercel.app/',
   },
   {
     header: 'Random Quotes Generator',
@@ -30,7 +30,7 @@ const projectsList = [
     technologies: 'ReactJs, NextJs, TypeScript, API Rest',
     description: 'Simple rendering of an API Rest call on website',
     githubLink: 'https://github.com/Naryond/nextjs-randomquotesgen',
-    liveAppLink: '',
+    liveAppLink: 'https://nextjs-randomquotesgen.vercel.app/',
   },
 ];
 

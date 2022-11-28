@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 const NavBar = () => {
   return (
-    <Navbar bg="light">
+    <Navbar bg="light" expand="sm">
       <Container>
         <Navbar.Brand>Giuseppe Valeriani</Navbar.Brand>
         <Nav className="me-auto">

@@ -7,7 +7,7 @@ import Project from './project';
 const projectsList = [
   {
     header: 'Idea Board (Clearscore Tech Test)',
-    image: 'https://i.ibb.co/jg84R3K/Ideaboard.png',
+    image: 'https://i.ibb.co/3SmJ277/ideaboard.png',
     technologies: 'ReactJS, NextJS, TypeScript, Uuidv4 (random ID generator)',
     description:
       'This is the ClearScore Tech Test focused to build an Idea Board with tiles the user can easily create, erase, modify.',
@@ -15,8 +15,8 @@ const projectsList = [
     liveAppLink: 'https://nextjs-ideaboard.vercel.app/',
   },
   {
-    header: 'API Rest with Firebase Authentication',
-    image: 'https://i.ibb.co/h8zJV3c/Firebasedb.png',
+    header: 'Firebase Authenticated Website',
+    image: 'https://i.ibb.co/tQCq0RB/firebasedb.png',
     technologies:
       'ReactJS, NextJS, TypeScript, API Rest, Firebase, React Hook Form, NextRouter, Bootstrap, ChartJS',
     description:

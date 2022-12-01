@@ -26,7 +26,7 @@ const projectsList = [
   },
   {
     header: 'Random Quotes Generator',
-    image: 'https://i.ibb.co/NK7nkdQ/Quotesgen.png',
+    image: 'https://i.ibb.co/fr83XFB/quotesgen.png',
     technologies: 'ReactJs, NextJs, TypeScript, API Rest',
     description: 'Simple rendering of an API Rest call on website',
     githubLink: 'https://github.com/Naryond/nextjs-randomquotesgen',

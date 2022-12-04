@@ -25,6 +25,14 @@ const projectsList = [
     liveAppLink: 'https://nextjs-database-complete.vercel.app/',
   },
   {
+    header: 'Content Management System',
+    image: 'https://i.ibb.co/BrSTP86/cms.png',
+    technologies: 'ReactJs, NextJs, Sanity, Bootstrap',
+    description: 'CMS created with Sanity to handle contents easily',
+    githubLink: 'https://github.com/Naryond/get-started-sanity-nextjs',
+    liveAppLink: 'https://sanity-nextjs-example.vercel.app/',
+  },
+  {
     header: 'Random Quotes Generator',
     image: 'https://i.ibb.co/fr83XFB/quotesgen.png',
     technologies: 'ReactJs, NextJs, TypeScript, API Rest',

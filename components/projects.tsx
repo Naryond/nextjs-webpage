@@ -48,7 +48,7 @@ const Projects = () => {
       <Row>
         {projectsList.map((project) => {
           return (
-            <Col key={project.header}>
+            <Col className="d-flex align-items-stretch" key={project.header}>
               <Project
                 header={project.header}
                 image={project.image}

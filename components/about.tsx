@@ -1,8 +1,9 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <div className="d-md-flex">
+    <Container className="d-md-flex">
       <div className="row mt-5 justify-content-around align-items-center">
         <p className="col">
           I am a self taught Front Edn Developer. I have had the help of a
@@ -19,7 +20,7 @@ const About = () => {
           might be required using in order to perform the tasks assigned.
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 

@@ -28,7 +28,7 @@ const projectsList = [
     header: 'Content Management System',
     image: 'https://i.ibb.co/BrSTP86/cms.png',
     technologies: 'ReactJs, NextJs, Sanity, Bootstrap',
-    description: 'CMS created with Sanity to handle contents easily',
+    description: 'CMS created with Sanity to easily handle contents',
     githubLink: 'https://github.com/Naryond/get-started-sanity-nextjs',
     liveAppLink: 'https://sanity-nextjs-example.vercel.app/',
   },

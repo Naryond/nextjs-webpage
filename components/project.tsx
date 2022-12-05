@@ -25,9 +25,11 @@ const Project = ({
         <Card.Img src={image} />
         <Card.Footer>Technologies used: {technologies}</Card.Footer>
         <Card.Text>{description}</Card.Text>
+      </Card.Body>
+      <Card.Footer>
         <Card.Link href={githubLink}>GitHub Repo</Card.Link>
         <Card.Link href={liveAppLink}>Live App</Card.Link>
-      </Card.Body>
+      </Card.Footer>
     </Card>
   );
 };

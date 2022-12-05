@@ -9,9 +9,11 @@ const About = () => {
           I am a self taught Front Edn Developer. I have had the help of a
           mentor for several months. I focussed on learning JavaScript’s
           fundamentals and moving primarily to React. With it I build a few
-          projects, mostly on Next JS, that involve the use and understanding of
-          HTML, CSS, Bootstrap, TypeScript, Firebase, React-Hook-Form, Node and
-          some other functional tools such GitHub and Trello.
+          projects, mostly on Next JS, that involve the use and understanding of{' '}
+          <strong>
+            HTML, CSS, Bootstrap, TypeScript, Firebase, React-Hook-Form, NodeJS
+          </strong>{' '}
+          and some other functional tools such GitHub and Trello.
         </p>
         <p>
           I am also determined to grow as a developer and as value for the

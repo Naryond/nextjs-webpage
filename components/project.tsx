@@ -23,12 +23,16 @@ const Project = ({
       <Card.Header>{header}</Card.Header>
       <Card.Body>
         <Card.Img src={image} />
-        <Card.Footer>Technologies used: {technologies}</Card.Footer>
         <Card.Text>{description}</Card.Text>
+        <Card.Text>Technologies used: {technologies}</Card.Text>
       </Card.Body>
       <Card.Footer>
-        <Card.Link href={githubLink}>GitHub Repo</Card.Link>
-        <Card.Link href={liveAppLink}>Live App</Card.Link>
+        <Card.Link target="_blank" href={githubLink}>
+          GitHub Repo
+        </Card.Link>
+        <Card.Link target="_blank" href={liveAppLink}>
+          Live App
+        </Card.Link>
       </Card.Footer>
     </Card>
   );

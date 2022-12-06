@@ -7,7 +7,7 @@ import Project from './project';
 const projectsList = [
   {
     header: 'Idea Board (Clearscore Tech Test)',
-    image: 'https://i.ibb.co/3SmJ277/ideaboard.png',
+    image: 'https://i.ibb.co/LtCV6Y6/ideaboard.png',
     technologies: 'ReactJS, NextJS, TypeScript, Uuidv4 (random ID generator)',
     description:
       'This is the ClearScore Tech Test focused to build an Idea Board with tiles the user can easily create, erase, modify.',
@@ -34,7 +34,7 @@ const projectsList = [
   },
   {
     header: 'Random Quotes Generator',
-    image: 'https://i.ibb.co/fr83XFB/quotesgen.png',
+    image: 'https://i.ibb.co/zJ4s7H9/quotesgen.png',
     technologies: 'ReactJs, NextJs, TypeScript, API Rest',
     description: 'Simple rendering of an API Rest call on website',
     githubLink: 'https://github.com/Naryond/nextjs-randomquotesgen',

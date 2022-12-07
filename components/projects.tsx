@@ -48,7 +48,16 @@ const Projects = () => {
       <Row>
         {projectsList.map((project) => {
           return (
-            <Col className="d-flex align-items-stretch" key={project.header}>
+            <Col
+              className="d-flex align-items-stretch"
+              key={project.header}
+              style={{
+                display: 'flex',
+                alignItems: 'flex-end',
+                margin: '6px',
+                minWidth: '200px',
+              }}
+            >
               <Project
                 header={project.header}
                 image={project.image}

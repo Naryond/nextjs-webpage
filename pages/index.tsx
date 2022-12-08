@@ -2,8 +2,9 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Projects from '../components/projects';
 import About from '../components/about';
+import { createClient } from 'next-sanity';
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ projects }: any) => {
   return (
     <div className="p-5">
       <Head>
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
       </header>
       <p className="text-center mb-5">Some of my projects</p>
       <section id="projects">
-        <Projects />
+        <Projects projects={projects} />
       </section>
       <section id="about">
         <About />
@@ -33,3 +34,20 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+const client = createClient({
+  projectId: 'gzcldg84',
+  dataset: 'production',
+  apiVersion: '2022-11-29',
+  useCdn: false,
+});
+
+export async function getStaticProps() {
+  const projects = await client.fetch(`*[_type == "projects"]`);
+
+  return {
+    props: {
+      projects,
+    },
+  };
+}

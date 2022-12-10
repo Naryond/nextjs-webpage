@@ -19,7 +19,7 @@ const Project = ({
   liveAppLink,
 }: ProjectTypes) => {
   return (
-    <Card style={{ display: 'flex', flexBasis: '300px' }}>
+    <Card className="dimension">
       <Card.Header>{header}</Card.Header>
       <Card.Body>
         <Card.Img src={image} />

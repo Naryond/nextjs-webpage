@@ -1,0 +1,10 @@
+.dimension {
+  flex-basis: 300px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .dimension {
+    flex-basis: 300px;
+    flex-wrap: wrap;
+  }
+}

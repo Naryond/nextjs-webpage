@@ -2,13 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Project from './project';
 
+import type { ProjectsType } from '../pages';
+
 // Pictures are 600 x 375 px
 
-const Projects = ({ projects }: any) => {
+const Projects = ({ projects }: ProjectsType) => {
   return (
     <Container>
       <Row>
-        {projects.map((project: string[] | any) => {
+        {projects.map((project) => {
           return (
             <Col
               className="d-flex align-items-stretch"

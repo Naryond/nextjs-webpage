@@ -1,10 +1,25 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
 import Projects from '../components/projects';
 import About from '../components/about';
 import { createClient } from 'next-sanity';
 
-const Home: NextPage = ({ projects }: any) => {
+export type ProjectsType = {
+  projects: {
+    description: string;
+    githubLink: string;
+    header: string;
+    image: string;
+    liveAppLink: string;
+    technologies: string;
+    _id: string;
+    _createdAt?: string;
+    _rev?: string;
+    _type?: string;
+    _updatedAt?: string;
+  }[];
+};
+
+const Home = ({ projects }: ProjectsType) => {
   return (
     <div className="p-5">
       <Head>

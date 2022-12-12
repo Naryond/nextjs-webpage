@@ -9,7 +9,7 @@ import type { ProjectsType } from '../pages';
 const Projects = ({ projects }: ProjectsType) => {
   return (
     <Container>
-      <Row>
+      <Row className="schema">
         {projects.map((project) => {
           return (
             <Col

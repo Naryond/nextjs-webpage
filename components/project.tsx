@@ -17,7 +17,9 @@ const Project = ({
       <Card.Body>
         <Card.Img src={image} />
         <Card.Text>{description}</Card.Text>
-        <Card.Text>Technologies used: {technologies}</Card.Text>
+        <Card.Text>
+          Technologies used: <strong>{technologies}</strong>
+        </Card.Text>
       </Card.Body>
       <Card.Footer>
         <Card.Link target="_blank" href={githubLink}>

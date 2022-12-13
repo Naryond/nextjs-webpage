@@ -19,7 +19,7 @@ export type ListProjectsType = {
 const Home = ({ projects }: ListProjectsType) => {
   return (
     <div className="p-5">
-      <header className="my-5 header" id="home">
+      <header className="header" id="home">
         <article className="lead article">
           <h1 className="text-center my-5">
             I am a Front End Developer based in London
@@ -31,7 +31,7 @@ const Home = ({ projects }: ListProjectsType) => {
           </h5>
         </article>
       </header>
-      <p className="text-center mb-5">Some of my projects</p>
+      <h2 className="text-center mb-5">Projects</h2>
       <section id="projects">
         <Projects projects={projects} />
       </section>

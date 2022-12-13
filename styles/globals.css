@@ -12,7 +12,18 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
   .schema {
     margin: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    margin-top: 200px;
+    margin-bottom: 300px;
   }
 }

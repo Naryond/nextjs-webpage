@@ -6,7 +6,7 @@ const About = () => {
     <Container className="d-md-flex">
       <div className="row mt-5 justify-content-around align-items-center">
         <p className="col">
-          I am a self taught Front Edn Developer. I have had the help of a
+          I am a self taught Front End Developer. I have had the help of a
           mentor for several months. I focussed on learning{' '}
           <strong>JavaScript’s </strong>
           fundamentals and moving primarily to <strong>React</strong>. With it I

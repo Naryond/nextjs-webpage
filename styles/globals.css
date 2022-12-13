@@ -2,6 +2,15 @@
   flex-basis: 350px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  max-width: 800px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .schema {
     margin: 50px;

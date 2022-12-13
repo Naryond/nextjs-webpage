@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Projects from '../components/projects';
 import About from '../components/about';
 import { createClient } from 'next-sanity';
@@ -20,9 +19,6 @@ export type ListProjectsType = {
 const Home = ({ projects }: ListProjectsType) => {
   return (
     <div className="p-5">
-      <Head>
-        <title>Giuseppe Valeriani</title>
-      </Head>
       <header className="my-5" id="home">
         <article className="lead">
           <h1 className="text-center my-5">

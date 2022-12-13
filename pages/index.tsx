@@ -3,19 +3,21 @@ import Projects from '../components/projects';
 import About from '../components/about';
 import { createClient } from 'next-sanity';
 
-export type ProjectsType = {
-  projects: {
-    description: string;
-    githubLink: string;
-    header: string;
-    image: string;
-    liveAppLink: string;
-    technologies: string;
-    _id: string;
-  }[];
+export type ProjectType = {
+  header: string;
+  image: string;
+  technologies: string;
+  description: string;
+  githubLink: string;
+  liveAppLink: string;
+  _id?: string;
 };
 
-const Home = ({ projects }: ProjectsType) => {
+export type ListProjectsType = {
+  projects: ProjectType[];
+};
+
+const Home = ({ projects }: ListProjectsType) => {
   return (
     <div className="p-5">
       <Head>

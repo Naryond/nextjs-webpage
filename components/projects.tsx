@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Project from './project';
 
-import type { ProjectsType } from '../pages';
+import type { ListProjectsType } from '../pages';
 
 // Pictures are 600 x 375 px
 
-const Projects = ({ projects }: ProjectsType) => {
+const Projects = ({ projects }: ListProjectsType) => {
   return (
     <Container>
       <Row className="schema">

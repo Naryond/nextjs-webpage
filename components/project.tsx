@@ -1,14 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-type SingleProject = {
-  header: string;
-  image: string;
-  technologies: string;
-  description: string;
-  githubLink: string;
-  liveAppLink: string;
-};
+import type { ProjectType } from '../pages';
 
 const Project = ({
   header,
@@ -17,7 +10,7 @@ const Project = ({
   description,
   githubLink,
   liveAppLink,
-}: SingleProject) => {
+}: ProjectType) => {
   return (
     <Card className="dimension">
       <Card.Header>{header}</Card.Header>

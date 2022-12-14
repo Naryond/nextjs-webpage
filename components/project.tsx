@@ -22,10 +22,18 @@ const Project = ({
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <Card.Link target="_blank" href={githubLink}>
+        <Card.Link
+          style={{ textDecoration: 'none' }}
+          target="_blank"
+          href={githubLink}
+        >
           GitHub Repo
         </Card.Link>
-        <Card.Link target="_blank" href={liveAppLink}>
+        <Card.Link
+          style={{ textDecoration: 'none' }}
+          target="_blank"
+          href={liveAppLink}
+        >
           Live App
         </Card.Link>
       </Card.Footer>

@@ -1,5 +1,6 @@
 import Projects from '../components/projects';
 import About from '../components/about';
+import Contacts from '../components/contacts';
 import { createClient } from 'next-sanity';
 
 export type ProjectType = {
@@ -31,12 +32,20 @@ const Home = ({ projects }: ListProjectsType) => {
           </h5>
         </article>
       </header>
-      <h2 className="text-center mb-5">Projects</h2>
-      <section id="projects">
+      <section className="my-5" id="projects">
+        <h2 className="text-center mb-5">Projects</h2>
         <Projects projects={projects} />
       </section>
-      <section id="about">
-        <About />
+      <section className="my-5" id="about">
+        <h2 className="text-center mb-3">About me</h2>
+        <div className="mb-5 d-flex justify-content-center">
+          <div className="article">
+            <About />
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+        <Contacts />
       </section>
     </div>
   );

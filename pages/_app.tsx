@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <SSRProvider>
       <Head>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
         <title>Giuseppe Valeriani</title>
       </Head>
       <NavBar />

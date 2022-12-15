@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Contacts = () => {
   return (
-    <Container className="d-flex justify-content-around">
+    <Container className="d-flex justify-content-around p-4">
       <div>
         <Link
           style={{ textDecoration: 'none' }}

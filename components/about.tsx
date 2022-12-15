@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 const About = () => {
   return (
     <Container className="d-md-flex">
-      <div className="row mt-5 justify-content-around align-items-center">
+      <div className="row mt-5 p-4 justify-content-around align-items-center">
         <p className="col">
           I am a self taught Front End Developer. I have had the help of a
           mentor for several months. I focussed on learning{' '}

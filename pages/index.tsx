@@ -22,7 +22,7 @@ const Home = ({ projects }: ListProjectsType) => {
     <div className="p-5">
       <header className="header" id="home">
         <article className="lead article">
-          <h1 className="text-center my-5">
+          <h1 className="text-center my-5 p-4">
             I am a Front End Developer based in London
           </h1>
           <h5 className="text-center">

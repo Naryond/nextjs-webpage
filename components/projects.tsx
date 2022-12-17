@@ -13,12 +13,9 @@ const Projects = ({ projects }: ListProjectsType) => {
         {projects.map((project) => {
           return (
             <Col
-              className="d-flex align-items-stretch"
+              className="d-flex align-items-stretch m-2"
               key={project._id}
               style={{
-                display: 'flex',
-                alignItems: 'flex-end',
-                margin: '6px',
                 minWidth: '200px',
               }}
             >

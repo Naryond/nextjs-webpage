@@ -17,6 +17,7 @@ const Projects = ({ projects }: ListProjectsType) => {
               key={project._id}
               style={{
                 minWidth: '200px',
+                flexBasis: '350px',
               }}
             >
               <Project

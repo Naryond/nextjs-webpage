@@ -20,8 +20,17 @@
   flex-basis: 400px;
 }
 
+.contacts-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  padding: 8px;
+  background-color: rgb(248, 249, 250);
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
-  .schema {
+  .projects {
     margin: 40px;
   }
 

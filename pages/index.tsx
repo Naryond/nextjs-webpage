@@ -19,7 +19,7 @@ export type ListProjectsType = {
 
 const Home = ({ projects }: ListProjectsType) => {
   return (
-    <div className="p-5">
+    <div className="p-2">
       <header className="header" id="home">
         <article className="lead article">
           <h1 className="text-center my-5 p-4">
@@ -44,8 +44,11 @@ const Home = ({ projects }: ListProjectsType) => {
           </div>
         </div>
       </section>
-      <section id="contacts">
-        <Contacts />
+      <section className="my-5" id="contacts">
+        <h2 className="text-center mb-3">Contact me</h2>
+        <div className="mb-5 d-flex justify-content-center">
+          <Contacts />
+        </div>
       </section>
     </div>
   );

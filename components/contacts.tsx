@@ -7,10 +7,7 @@ const Contacts = () => {
   return (
     <Container className="d-flex justify-content-around p-4">
       <div>
-        <Link
-          style={{ textDecoration: 'none' }}
-          href="mailto:giuggey85@gmail.com"
-        >
+        <Link href="mailto:giuggey85@gmail.com" className="contacts-links">
           <Image
             src="/gmail.png"
             width={40}
@@ -21,10 +18,7 @@ const Contacts = () => {
         </Link>
       </div>
       <div>
-        <Link
-          style={{ textDecoration: 'none' }}
-          href="https://github.com/Naryond"
-        >
+        <Link href="https://github.com/Naryond" className="contacts-links">
           <Image
             src="/github-mark.png"
             width={40}
@@ -36,8 +30,8 @@ const Contacts = () => {
       </div>
       <div>
         <Link
-          style={{ textDecoration: 'none' }}
           href="https://www.linkedin.com/in/giuseppe-valeriani-4b9995115/"
+          className="contacts-links"
         >
           <Image
             src="/linkedin.png"

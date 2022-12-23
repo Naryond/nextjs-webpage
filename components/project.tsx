@@ -15,7 +15,7 @@ const Project = ({
     <Card className="dimension">
       <Card.Header>{header}</Card.Header>
       <Card.Body>
-        <Card.Img src={image} />
+        <Card.Img src={image} width={600} height={375} />
         <Card.Text>{description}</Card.Text>
         <Card.Text>
           Technologies used: <strong>{technologies}</strong>

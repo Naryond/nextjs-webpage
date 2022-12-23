@@ -12,14 +12,7 @@ const Projects = ({ projects }: ListProjectsType) => {
       <Row className="schema">
         {projects.map((project) => {
           return (
-            <Col
-              className="d-flex align-items-stretch m-2"
-              key={project._id}
-              // style={{
-              //   minWidth: '200px',
-              //   flexBasis: '400px',
-              // }}
-            >
+            <Col className="d-flex align-items-stretch m-2" key={project._id}>
               <Project
                 header={project.header}
                 image={project.image}

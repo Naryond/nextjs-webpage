@@ -15,10 +15,10 @@ const Projects = ({ projects }: ListProjectsType) => {
             <Col
               className="d-flex align-items-stretch m-2"
               key={project._id}
-              style={{
-                minWidth: '200px',
-                flexBasis: '350px',
-              }}
+              // style={{
+              //   minWidth: '200px',
+              //   flexBasis: '400px',
+              // }}
             >
               <Project
                 header={project.header}

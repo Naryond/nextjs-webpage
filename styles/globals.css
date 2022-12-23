@@ -14,9 +14,19 @@
 .card {
   box-shadow: 4px 4px 4px;
 }
+
+.col {
+  min-width: 200px;
+  flex-basis: 400px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .schema {
     margin: 40px;
+  }
+
+  .col {
+    flex-basis: 200px;
   }
 }
 

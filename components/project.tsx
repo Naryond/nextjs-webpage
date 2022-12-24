@@ -12,7 +12,7 @@ const Project = ({
   liveAppLink,
 }: ProjectType) => {
   return (
-    <Card className="dimension">
+    <Card>
       <Card.Header>{header}</Card.Header>
       <Card.Body>
         <Card.Img src={image} width={600} height={375} />

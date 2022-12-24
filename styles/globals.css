@@ -1,7 +1,3 @@
-.dimension {
-  flex-basis: 350px;
-}
-
 .header {
   display: flex;
   justify-content: center;

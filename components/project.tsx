@@ -15,7 +15,12 @@ const Project = ({
     <Card>
       <Card.Header>{header}</Card.Header>
       <Card.Body>
-        <Card.Img src={image} width={600} height={375} />
+        <Card.Img
+          src={image}
+          style={{ objectFit: 'contain' }}
+          width={500}
+          height={400}
+        />
         <Card.Text>{description}</Card.Text>
         <Card.Text>
           Technologies used: <strong>{technologies}</strong>
